@@ -1,0 +1,23 @@
+﻿@model IEnumerable<WatchStore.Models.MMenu>
+
+<div class="col-lg-10 col-md-9 col-sm-12 col-xs-12 no-padding-right menuarea">
+    <div class="mainmenu"style="background-color: darkblue">
+        <nav>
+            <ul class="list-inline mega-menu"style="background-color: darkblue">
+                <li class="active">
+                  
+                    <!-- DROPDOWN MENU START -->
+                    <!-- DROPDOWN MENU END -->
+                </li>
+                @Html.Action("MainMenuWithCategory", "Module")
+              
+                @foreach (var item in Model)
+                {
+                    <li class=""style="background-color: darkblue">
+                        <a href="~/@item.Link" class="menulink">@item.Name</a>
+                    </li>
+                }
+            </ul>
+        </nav>
+    </div>
+</div>

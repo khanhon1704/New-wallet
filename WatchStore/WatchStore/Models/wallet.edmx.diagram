@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7f28b437f8564242933b996bff027da5" Name="Diagram1">
+        <EntityTypeShape EntityType="QLwatchstoreModel.Category" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLwatchstoreModel.Contact" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLwatchstoreModel.Link" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLwatchstoreModel.Menu" Width="1.5" PointX="10.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLwatchstoreModel.OrderDetail" Width="1.5" PointX="5.25" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLwatchstoreModel.Order" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLwatchstoreModel.Post" Width="1.5" PointX="8" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLwatchstoreModel.ProductRate" Width="1.5" PointX="10.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLwatchstoreModel.Product" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLwatchstoreModel.Slider" Width="1.5" PointX="5.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLwatchstoreModel.Topic" Width="1.5" PointX="5.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLwatchstoreModel.User" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <AssociationConnector Association="QLwatchstoreModel.fk_product_category" ManuallyRouted="false" />
+        <AssociationConnector Association="QLwatchstoreModel.fk_orderDetails_order" ManuallyRouted="false" />
+        <AssociationConnector Association="QLwatchstoreModel.fk_orderDetails_product2" ManuallyRouted="false" />
+        <AssociationConnector Association="QLwatchstoreModel.fk_orders_users_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="QLwatchstoreModel.fk_poste_topicc" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
